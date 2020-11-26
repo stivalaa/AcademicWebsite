@@ -13,7 +13,7 @@ Patents are often used as a source of data to study innovation, and one measure 
 
 The contrast of a category (such as a patent technology class) captures the idea of sharp versus broad or "fuzzy" category boundaries. If a technology class is one that is seldom assigned together with other classes, then it has high contrast. A low contrast technology class is one that is frequently found together with other classes. Niche width is a measure of the diversity of technology classes combined by a patent.
 
-We will use these ideas to examine the effects of diversity and contrast on the success of a patent, using a data set of nearly two million European patents. We will use both conventional regression modeling, as well as exponential random graph modeling (ERGM) to model the patent citation network. The latter allows modeling of the patent citation network having to treat the network structure as exogenous.
+We will use these ideas to examine the effects of diversity and contrast on the success of a patent, using a data set of nearly two million European patents. We will use both conventional regression modeling, as well as exponential random graph modeling (ERGM) to model the patent citation network. The latter allows modeling of the patent citation network without having to treat the network structure as exogenous.
 
 
 
