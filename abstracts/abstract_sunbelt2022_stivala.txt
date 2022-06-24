@@ -1,0 +1,18 @@
+﻿Title:
+
+A new scalable implementation of the citation exponential random graph model (cERGM) and its application to a large patent citation network
+
+Authors:
+
+Alex Stivala (Università della Svizzera italiana)
+Alessandro Lomi (Università della Svizzera italiana)
+
+Abstract:
+
+The citation exponential random graph model (cERGM) was recently described by Schmid, Chen, and Desmarais (2021), who used it to analyze a United States Supreme Court case citation network. The cERGM is an ERGM variant that takes account of some special properties of the network of Supreme Court citations, and citation networks more generally. Specifically, that the set of nodes must increase in size for citations to be created, and that arcs (representing citations) can only be created, not destroyed.
+
+We will describe a new implementation of the cERGM, which uses the recent "equilibrium expectation" algorithm to enable parameter estimation for networks far larger than is possible using the original implementation.
+
+We will use this new cERGM implementation to analyze a citation network of nearly two million European patents, and compare the results to those we have previously described for this network using both ERGM and negative binomial regression.
+
+We will also discuss potential shortcomings in the original method for testing goodness-of-fit for the cERGM, and suggest possible improvements.
