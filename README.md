@@ -3,5 +3,9 @@ Files (mostly PDF preprints and slides) for academic website https://sites.googl
 
 So using GitHub pages for this instead, following the advice in https://kevinhayeswilson.com/website.pdf
 
+To link to files stored here, use URLs like the following example:
+
+https://stivalaa.github.io/AcademicWebsite/preprints/IFDsampler_preprint.pdf
+
 ADS
 June 2020
