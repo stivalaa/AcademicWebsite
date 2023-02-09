@@ -1,0 +1,22 @@
+The 504 gateway error is usually because something is timing out, i.e. some process is exceeding a time limit in the web server. The first thing to try is to disable the DDOMAIN domain decomposition, as this process can run a long time. You can do this by selecting "Use whole structure" under "2) Choose how to handle domains".
+
+If your structure is large, however, the actual Pro-origami processing could take too long and time out - especially if it has not been broken up into domains (which is the purpose of the DDOMAIN preprocessing).
+
+It would help to know the approximate size of the structure - if it is large (like significantly larger than a typical single SCOP domain for example) this could lead to the process timing out. So if this is the case, it can help to break it into domains yourself (with software locally or whatever process you have, even manually if necessary) and generate cartoons for domains individually.
+
+If none of that works, there is the option of installing Pro-origami locally on your own machine so you can diagnose any problems (and not have timeouts from the web server). Of course, this is a lot of work (unfortunately, there are so many software packages, in so many different languages, involved, and now so out of date, it is quite challenging to install - you will probably need a virtual machine of some kind to isolate from all your more modern system packages - the CDE package download from the server works by having all the necessary dependencies packaged up for you). There are also some internal limits in DDOMAIN that require recompiling it (it is written in FORTRAN) which I can no longer do on the server, but I have done on a Linux cluster at my current affiliation. 
+
+
+
+
+
+
+There are (still) surprisingly few alternatives to Pro-origami. Drawing topology diagrams just doesn't seem to have attracted the same amount of attention as (for example) 3D protein drawings (or network visualizations), or structural alignment, motif searching, etc. Aside from the ones I linked to on the Pro-origami page (which i can no longer update) - some of which e.g. TOPS, no longer seem to be available - the only new one I'm aware of is this:
+
+Hutařová Vařeková, I., Hutař, J., Midlik, A., Horský, V., Hladká, E., Svobodová, R., & Berka, K. (2021). 2DProts: database of family-wide protein secondary structure diagrams. Bioinformatics, 37(23), 4599-4601.
+
+https://2dprots.ncbr.muni.cz/
+
+But it is more oriented to multiple 2D diagrams of entire protein families. You can generate single 2D diagrams of any PDB entry, but I'm not sure it provides the ability to upload your own structure - I couldn't find it, if it does. The source code (Python) is available though so you could try to run it yourself: https://gitlab.com/jhutar/2dprot
+
+
