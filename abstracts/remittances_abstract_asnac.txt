@@ -1,0 +1,27 @@
+Network structure of global remittances
+
+Alex Stivala
+Università della svizzera Italiana and Swinburne University of Technology
+
+Keywords: remittances, migration, geography, network models
+
+Remittances are flows of money between countries due to migrants
+sending money back to relatives in their country of origin. As such,
+they form a directed and weighted network of money flows between
+countries, and the techniques of (social) network analysis may be
+applied. There has been an increased interest in the economics
+literature on remittances recently, due to their potential importance
+with respect to money laundering, tax evasion, and potential impact on
+national economies. However, there has been to date very limited
+network analysis applied to the global networks of remittances. Here
+we use publicly available data from the World Bank to examine the
+global network of remittances between countries, examining network
+centrality, community structure, and "small world" properties.  We
+also describe progress towards the construction of more sophisticated
+network models, accounting for various geographical, demographic, and
+economic factors.
+
+
+[submitted to ASNAC 2018 website 
+https://www.ansna.org.au/asnac2018-call-for-papers/
+on 11 August 2018
