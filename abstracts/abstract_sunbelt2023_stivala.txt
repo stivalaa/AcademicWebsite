@@ -1,0 +1,19 @@
+Title:
+
+Numbers and structural positions of women in a national director interlock network
+
+Authors:
+
+Alex Stivala (Università della Svizzera italiana)
+Peng Wang (Swinburne University of Technology, Università della Svizzera italiana)
+Alessandro Lomi (Università della Svizzera italiana)
+
+Abstract:
+
+Female representation on company boards is a topic of much business, political, and academic interest. In most discussion of this topic, only the largest companies, such as the top 200 or 500, listed on a national stock exchange, are considered. This is an issue because the largest companies are also likely to be the most formalized, and hence more likely to comply with institutional constraints. In consequence, empirical studies limited to the boards of the largest companies are likely to overestimate female representation.   
+
+In this talk we will analyze a data set of all (over 2000) companies listed on the Australian Stock Exchange (ASX). We will describe a statistical test of a so-called "token woman" hypothesis, that is, that companies tend to recruit exactly one woman from a limited pool of female candidates to their boards. This involves counting the number of women, and comparing the observed number to that expected under a null model.
+
+To move beyond counting proportions of women and network descriptive statistics such as centrality, we will use exponential-family random graph models (ERGM), and autologistic actor attributes models (ALAAM), to make inferences about the structure of the Australian interlocking directorates network, and the structural positions of women in it.
+ 
+As well as the substantive contribution in analyzing the proportional board representation and structural positions of women in a large national data set, this work includes two methods innovations. First, open-source software for ERGM estimation, simulation and goodness-of-fit testing for large bipartite networks is demonstrated on the ASX network and a much larger (approx. 350 000 node) international director interlock network. Second, new open-source software for ALAAM estimation, simulation and goodness-of-fit for large bipartite networks is used for testing hypotheses about the structural positions of women in the ASX director interlock network.
