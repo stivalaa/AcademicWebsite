@@ -1,0 +1,49 @@
+Title:
+
+Social influence models with missing data
+
+Authors: 
+
+Alex Stivala (University of Melbourne)
+Colin Gallagher (University of Melbourne)
+David Rolls (University of Melbourne)
+Peng Wang (Swinburne University of Technology)
+Garry Robins (University of Melbourne)
+
+
+Abstract:
+
+The autologistic actor attribute model (ALAAM) is a statistical model
+based on the well-established exponential random graph model (ERGM)
+for social networks. ALAAMs can be used as a social influence model,
+predicting an actor's attribute based on his or her network ties, as
+well as attributes of the actor and his or her network partners. In
+this way an ALAAM is similar to logistic regression, but, unlike
+logistic regression or similar statistical techniques, it specifically
+does not assume independence of the predicted attributes: an actor's
+attribute may depend also on those of its neighbors in the network.
+
+Using simulation studies, we investigate the effect of using simple
+random samples and snowball samples of network data on ALAAM parameter
+inference.  We examine both fixed choice sampling designs (in which an
+actor nominates up to a fixed maximum number of network partners), and
+designs with no such limit (all network partners are assumed to be
+named).
+
+One practical motivation for this study is the manner in which social
+influence models may be applied to epidemiological studies of health
+outcomes in community samples when the entire community network is
+simply not available. These studies often use cross-sectional data to
+examine the prevalence of health conditions. Outcomes are often
+binary, representing probable diagnosis, and so logistic regression is
+used. However, an important question in these studies is that of
+interdependence of outcomes and the potential spread or co-occurrence
+of such outcomes across network ties.
+
+We examine Type I and Type II error rates, and find that parameter
+inference works well even with a large fraction of missing nodes. For
+a given network sample size, obtaining the sample by snowball sampling
+results in higher power on certain parameters than simple random
+sampling. These results give confidence that ALAAM parameter inference
+can be used on sampled network data, even when the sample only covers
+a relatively small proportion of the entire network.

@@ -1,0 +1,28 @@
+Title:
+
+ERGM parameter estimation of very large directed networks: implementation, example, and application to the geography of knowledge spillovers
+
+Authors:
+
+Alex Stivala (Universita della Svizzera italiana and Swinburne University of Technology)
+Alfons Palangkaraya (Swinburne University of Technology)
+Dean Lusher (Swinburne University of Technology)
+Garry Robins (The University of Melbourne and Swinburne University of Technology)
+Alessandro Lomi (Universita della Svizzera italiana and University of Exeter Business School)
+
+Abstract:
+
+The recently published Equilibrium Expectation (EE) algorithm for
+exponential random graph model (ERGM) parameter estimation has allowed
+such models to be estimated for networks far larger than previously
+possible. Here we demonstrate the extension of this algorithm to
+directed networks, with an implementation that overcomes some
+technical problems limiting the sizes of networks that could be
+practically estimated. We apply this method to estimate ERGM
+parameters for an online social network with approximately 1.6 million
+nodes, and a patent citation network with approximately 3.8 million
+nodes. The latter model allows us to test the geographic knowledge
+spillover hypothesis (that knowledge spillovers are geographically
+localized) using patent citation data, without having to treat the
+patent citation network as exogenous.
+

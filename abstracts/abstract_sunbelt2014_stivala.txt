@@ -1,0 +1,46 @@
+Title:
+
+Many snowballs make light work: a technique for large networks
+
+Authors: 
+
+Alex Stivala (University of Melbourne)
+Peng Wang (University of Melbourne)
+Johan Koskinen (University of Manchester)
+Garry Robins (University of Melbourne)
+David Rolls (University of Melbourne)
+
+
+Abstract:
+
+The exponential random graph model (ERGM) is a useful statistical
+model for analyzing social networks.  However, estimating ERGM
+parameters is a computationally intensive procedure that imposes
+severe limits on the size of networks that can be fitted. Furthermore,
+the best methods for computing such estimations are based on Markov
+chain Monte Carlo methods that are inherently sequential, which limits
+the ability to apply parallel computing.
+
+Recently, it has been shown that conditional estimation can be used to
+estimate ERGM parameters of a network by estimating parameters for
+smaller conditionally independent subsets of the network.  One
+convenient method of generating approximately independent subsets is
+snowball sampling, and the conditional estimates of these samples may
+then be taken as independent estimates of the same model, and pooled
+using a weighted mean.
+
+A consequence of this design is that estimation of a large number of
+relatively small samples can be conducted in parallel, thereby not
+only allowing estimation on much larger networks than previously
+possible, but also allowing the application of parallel computing to
+speed up the process.
+
+Here we discuss our parallel implementations of ERGM parameter
+estimation using snowball sampling to allow parameters for very large
+networks to be estimated.  We show that meta-analysis can be used to
+obtain estimates that adequately represent the data, by applying our
+methods to simulated networks with known parameters, and also
+demonstrate the application to networks that are too large to find
+social circuit and other more advanced ERGM specification parameters
+for directly.
+

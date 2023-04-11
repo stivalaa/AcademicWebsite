@@ -1,0 +1,39 @@
+Title:
+
+Structure and geography of a hospital patient transfer network
+
+Authors:
+
+Alex Stivala (Swinburne University of Technology and Universita della Svizzera italiana)
+Maksym Byshkin (Universita della Svizzera italiana)
+Francesca Pallotti (University of Greenwich)
+Alessandro Lomi (Universita della Svizzera italiana and University of Melbourne)
+
+Abstract:
+
+We describe a secondary analysis of an interhospital patient transfer
+network, in which the nodes represent hospitals and the directed arcs
+between them represent transfers of critically ill patients. There are
+over 3000 nodes (hospitals) in this network. Each of the hospitals has
+a geographic location, and hence this is a spatially embedded network.
+We describe the power law distribution and "small world" properties of
+this network, and discuss the relationship between its network
+community structure and geography.
+
+We describe the difficulties and incremental progress in estimating an
+exponential random graph model (ERGM) for this network. Using
+currently available estimation methods we were only able to estimate
+models for subnetworks of the network (based on census
+divisions). With a recently published improved sampling algorithm, we
+were able to estimate a simple model of the entire network, when
+converted to an undirected network. However using the Equilibrium
+Expectation algorithm for estimating ERGMs for large directed
+networks, we were able to estimate models for the entire network
+relatively quickly. We present several models of the network,
+incorporating geographical information. Explicitly controlling for
+geographic distance between hospitals has a significant effect on
+certain other model parameters, in some cases reversing their sign.
+We discuss the implications of the models for the effect of hospital
+attributes and geography on interhospital patient transfer network tie
+formation.
+

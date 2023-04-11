@@ -1,0 +1,40 @@
+Title:
+
+Modeling Biological Networks With Exponential Random Graph Models
+
+Domain:
+
+1. Life Sciences.
+2. Computer Science and Applied Mathematics.
+
+Authors:
+
+Alex Stivala (Swinburne University of Technology and Universita della Svizzera italiana)
+Maksym Byshkin (Universita della Svizzera italiana)
+Antonietta Mira (Uiversita della Svizzera italiana and Universita dell'Insubria)
+Garry Robins (University of Melbourne)
+Alessandro Lomi (Universita della Svizzera italiana and University of Melbourne)
+
+Abstract:
+
+Much research in biological networks concerns "motifs", small
+subgraphs which occur more frequently than by chance, which are
+considered the building blocks of complex networks.
+
+Exponential random graph models (ERGMs), a well-established class of
+statistical models for network data which are widely used in social
+network analysis, represent a principled statistical method of
+determining whether a motif is over (or under) represented in a
+network. Although the use of ERGMs for analyzing biological networks
+was introduced into the bioinformatics literature ten years ago, the
+use of ERGMs in biological network analysis has been very limited
+since then due to problems with applying existing methods to such
+networks, their size being typically far larger than those social
+networks to which ERGMs are usually applied.
+
+Here we use high performance computing to apply our recently developed
+new techniques (snowball sampling, improved fixed density ERGM
+sampling, scalable Equilibrium Expectation algorithm) for ERGM
+estimation to several biological networks (protein-protein interaction
+networks, gene regulatory networks, and a neural network), ranging in
+size from a few hundred to over five thousand nodes.

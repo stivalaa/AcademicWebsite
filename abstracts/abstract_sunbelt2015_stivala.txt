@@ -1,0 +1,39 @@
+Title:
+
+The ins and outs of snowball sampling: ERGM estimation for very large directed networks
+
+Authors: 
+
+Alex Stivala (University of Melbourne)
+David Rolls (University of Melbourne)
+Garry Robins (University of Melbourne)
+
+
+Abstract:
+
+The exponential random graph model (ERGM) is a well-established
+statistical model for analyzing social networks.  However, estimating
+ERGM parameters is a computationally intensive procedure that imposes
+severe limits on the size of networks that can be fitted. Furthermore,
+commonly used methods for computing such estimations are now based on
+Markov chain Monte Carlo methods that are inherently sequential, which
+limits the ability to apply parallel computing.
+
+Recently, a technique for using snowball sampling, called "conditional
+estimation", and parallel computing has been shown to be able to
+estimate ERGM parameters for undirected networks.  The key goal is to
+make inferences about the presence of effects such as network closure
+and homophily in networks that are too large (over 40 000 nodes) to
+estimate social circuit or other more advanced ERGM specifications
+directly.
+
+Extending the technique to directed networks is not necessarily
+straightforward, as it involves the use of snowball
+sampling. (Snowball sampling doesn't capture inward links, so they can
+be missing if unreciprocated.)  Here we describe a new method which
+uses a variation of snowball sampling as a computational technique to
+take samples from a very large, but known, directed (non-symmetric)
+network, so that an appropriate conditional estimation algorithm can
+be used to estimate ERGM parameters for many such samples in
+parallel. This allows inferences about effects to be made in directed
+networks far larger than previously possible.

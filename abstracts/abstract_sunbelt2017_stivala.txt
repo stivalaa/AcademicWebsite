@@ -1,0 +1,28 @@
+Title:
+
+Inference versus estimation in exponential random graph models.
+
+Authors: 
+
+Alex Stivala (University of Melbourne)
+Maksym Byshkin (Universita della Svizzera italiana)
+Garry Robins (University of Melbourne)
+
+
+Abstract:
+
+When using snowball sampling to estimate exponential random graph
+model (ERGM) parameters for very large networks, it was observed that
+there is a very high Type II error rate (that is, very low power) in
+inference on the edge (density) and alternating k-star parameters, as
+commonly used in models based on the social circuit dependence
+assumption.  However, this problem is not unique to snowball sampling,
+and also occurs when using Markov chain Monte Carlo (MCMC) maximum
+likelihood estimation (MLE) algorithms and stochastic approximation,
+as implemented for example in software packages such as PNet and
+statnet, to directly estimate a model for an entire network (not
+obtained via sampling from a larger network), even with no missing
+data. Here we investigate this issue further and try to explain why
+this problem occurs, what the implications are, and how we might try
+to mitigate it.
+
